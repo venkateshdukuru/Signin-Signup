@@ -1,4 +1,4 @@
-.addUser {
+.addUser1 {
   background-color: white;
   width: 25%;
   margin: 50px auto;
@@ -7,11 +7,11 @@
   padding: 40px;
   border-radius: 10px;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
-
   /* horizon offset vertical offset blur offset  */
   /* opacity of shadow */
   /* red, green, blue, and (opacity ). */
 }
+
 .addUserForm .inputGroup {
   width: 100%;
   display: flex;
@@ -25,11 +25,24 @@
 .addUserForm .inputGroup input {
   margin-top: 5px;
   padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .inputGroup button {
   margin-top: 10px;
+  padding: 10px;
+  background-color: darkcyan;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
+
+.inputGroup button:hover {
+  background-color: #008b8b;
+}
+
 .login {
   margin-top: 30px;
   text-align: center;
@@ -37,12 +50,30 @@
 
 .login .btn.btn-success {
   width: 50%;
+  padding: 10px;
+  border-radius: 5px;
 }
 
-.addUser h3 {
+.addUser1 h3 {
   text-align: center;
   font-weight: bold;
   color: darkcyan;
   text-transform: uppercase;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+/* Forgot Password Styling */
+.forgot-password {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.forgot-password .btn-link {
+  text-decoration: none;
+  color: darkcyan;
+  font-weight: bold;
+}
+
+.forgot-password .btn-link:hover {
+  text-decoration: underline;
 }

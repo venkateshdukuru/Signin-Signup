@@ -1,0 +1,38 @@
+.dashboard-container {
+    text-align: center;
+    background-color: white;
+    width: 80%;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-container {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Arrange charts in a 2x2 grid */
+.chart-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two charts per row */
+    gap: 20px; /* Space between charts */
+    width: 100%;
+}
+
+.chart {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+    height: 350px; /* Ensures uniform height */
+}
+
